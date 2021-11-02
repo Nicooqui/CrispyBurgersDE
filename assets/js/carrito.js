@@ -113,7 +113,7 @@ $('#ticket').submit((e) => {
     let CVV = e.target.elements.formGroupExampleInput3.value
     let nombre = e.target.elements.formGroupExampleInput4.value
 
-    if (tarjeta.length == 16 && CVV.length == 3 && fechaVencimiento == 3 && nombre) {
+    if (tarjeta.length == 16 && CVV.length == 3 && fechaVencimiento.length == 3 && nombre) {
         $('#carrito').html('')
         $('#carrito').html('<h1>¡Muchas gracias por tu compra!</h1>')
         $(`#vaciar`).attr('disabled', true)
