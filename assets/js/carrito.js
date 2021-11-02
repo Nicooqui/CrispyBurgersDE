@@ -113,7 +113,7 @@ $('#ticket').submit((e) => {
     let CVV = e.target.elements.formGroupExampleInput3.value
     let nombre = e.target.elements.formGroupExampleInput4.value
 
-    if (tarjeta.length == 16 && CVV.length == 3 && fechaVencimiento.length == 4 && nombre) {
+    if (tarjeta.length == 16 && CVV.length == 3 && fechaVencimiento && nombre) {
         $('#carrito').html('')
         $('#carrito').html('<h1>¡Muchas gracias por tu compra!</h1>')
         $(`#vaciar`).attr('disabled', true)
@@ -160,7 +160,7 @@ $('#ticket').submit((e) => {
         localStorage.clear();
     } else {
         let err1 = tarjeta.length == 16 ? '' : 'Tarjeta: la tarjeta tiene que tener 16 digitos'
-        let err2 = fechaVencimiento.length == 4 ? '' : ', Fecha:  fecha de vencimiento incorrecta, '
+        let err2 = fechaVencimiento ? '' : ', Fecha:  fecha de vencimiento incorrecta, '
         let err3 = CVV.length == 3 ? '' : ' CVV: son los 3 dígitos detrás de tu tarjeta, '
         let err4 = nombre ? '' : ' NOMBRE: por favor, escriba su nombre'
         swal(`Tenes los siguientes errores: ${err1}${err2}${err3}${err4} `, "", "error", { button: "ok" })
