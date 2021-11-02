@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Bebas Neue", cursive;
+  background-color: #e6e1d9; }
+
+.navbar {
+  background-color: #644b35; }
+
+.header_logo {
+  width: 5rem;
+  height: 5rem; }
+
+.navbar-nav {
+  width: 50%;
+  justify-content: space-around; }
+  .navbar-nav a {
+    color: #ffffff !important;
+    font-size: 1.5rem; }
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.card {
+  max-width: 400px;
+  margin: 10px; }
+
+.card-img-top {
+  width: 100%; }
+
+.section1 {
+  display: flex;
+  justify-content: end;
+  position: relative; }
+  .section1 img {
+    max-height: 89vh;
+    width: 100%; }
+  .section1 h1 {
+    color: #ffffff;
+    font-size: 10rem;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    z-index: 10; }
+  .section1 h2 {
+    font-size: 4rem;
+    color: #ffffff;
+    position: absolute;
+    top: 45%;
+    left: 18%;
+    z-index: 10; }
+
+.nuestroStaffTitulo {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  color: #000000;
+  margin-top: 15px; }
+
+.nuestroStaffHistoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000000;
+  width: 100%;
+  font-size: 25px;
+  padding: 0 35%; }
+
+.card-body .card-title {
+  font-size: 2rem; }
+
+.card-body p {
+  font-size: 1.5rem; }
+
+.liPadre {
+  position: relative;
+  z-index: 10; }
+  .liPadre .contadorCarrito {
+    position: absolute;
+    display: flex;
+    right: -28px;
+    bottom: 13px;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #ff0000;
+    z-index: -9; }
+
+.menuContainer h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 3rem; }
+
+.menuContainer p {
+  width: 100%;
+  font-size: 30px;
+  padding: 0 35%; }
+
+.btn-primary {
+  background-color: #644b35;
+  border-color: #644b35; }
+
+.mainSection {
+  min-height: 40vh;
+  height: auto; }
+  .mainSection h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 3rem; }
+  .mainSection h2 {
+    margin-left: 15px; }
+  .mainSection .btnVaciar {
+    margin-left: 15px; }
+
+.relativeCard {
+  position: relative; }
+  .relativeCard .absoluteButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    background-color: #ff0000;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 800; }
+
+.formContainer label {
+  font-size: 1.5rem; }
+
+.formContainer .btn {
+  margin: 10px; }
+
+.resumenContainer {
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgba(187, 152, 36, 0.849);
+  max-width: 50%;
+  width: auto;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #000000;
+  padding: 10px; }
+  .resumenContainer #mostrarPedido {
+    width: 70%;
+    margin: auto; }
+    .resumenContainer #mostrarPedido tfoot {
+      width: 80%;
+      margin-top: 25px;
+      border-top: #000000 2px solid;
+      text-align: right; }
+
+.resumenPedido {
+  width: 150%;
+  display: flex; }
+
+footer {
+  background-color: #644b35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  footer .header_logoFooter {
+    width: 12rem;
+    height: 12rem; }
+  footer h1 {
+    color: #ffffff;
+    font-size: 5rem; }
+  footer h2 {
+    color: #ffffff; }
+  footer .iconos_container {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px; }
+    footer .iconos_container .fa-facebook {
+      font-size: 4rem;
+      color: #ffffff; }
+    footer .iconos_container .fa-instagram {
+      font-size: 4rem;
+      color: #ffffff; }
+  footer h5 {
+    color: #ffffff; }

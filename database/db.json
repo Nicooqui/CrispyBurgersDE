@@ -1,0 +1,76 @@
+[
+    [
+        {
+            "id": 1,
+            "nombre" : "La Basica",
+            "desc": "1 medallón de carne con cheddar, bacon y papas chicas",
+            "precio" : 150
+        },
+        {
+            "id": 2,
+            "nombre" : "Segundo Piso",
+            "desc": "doble medallón de carne, doble cheddar, doble bacon y papas medianas",
+            "precio" : 300
+        },
+        {
+            "id": 3,
+            "nombre" : "Tercer Piso",
+            "desc": "triple medallón de carne, triple cheddar y doble bacon, con papas fritas grandes",
+            "precio" : 600
+        },
+        {
+            "id": 4,
+            "nombre" : "La cuatro quesos",
+            "desc": "triple medallón de carne, queso roquefort, cheddar, provolone y muzzarella, con papas fritas grandes",
+            "precio" : 850
+        },
+        {
+            "id": 5,
+            "nombre" : "Obelisco",
+            "desc": "cuadruple medallón de carne, con triple queso cheddar, bacon, cebolla caramelizada, con papas fritas grandes",
+            "precio" : 1000
+        }
+    ],
+    [
+        {
+            "id": 1,
+            "nombre": "Miguel Scott",
+            "descripcion": {
+                "desc": "Apasionado por la cocina, por los alimentos y por sacar siempre lo mejor de las personas con sus chistes.",
+                "edad": 42,
+                "hobby": "Guionista de peliculas, pariodar canciones."
+            },
+            "profesion": "Cheff master"
+        },
+        {
+            "id": 2,
+            "nombre": "Santiago Halpert",
+            "descripcion": {
+                "desc": "Le gusta la cocina, le gusta que las cosas salgan bien pero no se esfuerza como Daniel, es muy tranquilo y carismático.",
+                "edad": 38,
+                "hobby": "Tocar la guitarra, salir con amigos, molestar a Daniel."
+            },
+            "profesion": "2do cheff al mando"
+        },
+        {
+            "id": 3,
+            "nombre": "Daniel K. Schrute",
+            "descripcion": {
+                "desc": "Vive para lo que ama, que es cocinar y se desespera porque las cosas salgan de la mejor manera, listo y preparado para ayudar cuando se lo necesite.",
+                "edad": 38,
+                "hobby": "karate, ayudante de comisario, fanatico de las películas de ciencia ficción"
+            },
+            "profesion": "Asistente del 2do cheff al mando"
+        },
+        {
+            "id": 4,
+            "nombre": "Pamela Beasly",
+            "descripcion": {
+                "desc": "Tranquila y tímida, siempre dispuesta a ayudar en lo que se necesite. Muy creativa y talentosa.",
+                "edad": 36,
+                "hobby": "Dibujar, diseñar y pintar."
+            },
+            "profesion": "Administradora de Crispy Burguers"
+        }
+    ]
+]
