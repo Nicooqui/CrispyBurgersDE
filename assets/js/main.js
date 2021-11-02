@@ -29,7 +29,7 @@ const carrito = [];
 // Usando AJAX
 $.ajax({
     type: "get",
-    url: '../../database/db.json',
+    url: '../database/db.json',
     success: (response) => {
         let data = response[0]
         console.log(data)
