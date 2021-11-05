@@ -209,7 +209,7 @@ footer {
   footer h3 {
     color: #ffffff; }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 480px) and (max-width: 768px) {
   .section1 h1 {
     display: flex;
     justify-content: center;
