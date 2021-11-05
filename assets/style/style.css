@@ -117,6 +117,7 @@ body {
     margin-top: 15px;
     font-size: 3rem; }
   .mainSection h2 {
+    font-size: 2.5rem;
     margin-left: 15px; }
   .mainSection .btnVaciar {
     margin-left: 15px; }
@@ -164,6 +165,22 @@ body {
   width: 150%;
   display: flex; }
 
+.contadorCard {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; }
+
+.btnRestar {
+  background-color: #b48215dc;
+  height: 35px;
+  font-size: 1.5rem; }
+
+.btnSumar {
+  height: 35px;
+  font-size: 1.5rem;
+  background-color: #b48215dc; }
+
 footer {
   background-color: #644b35;
   display: flex;
@@ -189,5 +206,30 @@ footer {
     footer .iconos_container .fa-instagram {
       font-size: 4rem;
       color: #ffffff; }
-  footer h5 {
+  footer h3 {
     color: #ffffff; }
+
+@media all and (max-width: 480px) {
+  .section1 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem; }
+  .section1 h2 {
+    font-size: 2rem;
+    left: 10%; }
+  footer {
+    display: flex;
+    justify-content: center; }
+    footer .header_logoFooter {
+      width: 8rem;
+      height: 8rem;
+      margin: 9px; }
+    footer h1 {
+      font-size: 70px;
+      justify-self: auto;
+      margin: 30px 0; }
+    footer h2 {
+      font-size: 25px;
+      margin-top: 10px; }
+    footer h3 {
+      margin-top: 20px; } }

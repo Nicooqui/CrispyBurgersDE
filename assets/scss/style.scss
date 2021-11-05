@@ -143,6 +143,7 @@ body {
         font-size: 3rem;
     }
     h2{
+        font-size: 2.5rem;
         margin-left: 15px;
     }
     .btnVaciar{
@@ -201,6 +202,23 @@ body {
     display: flex;
 }
 
+.contadorCard {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.btnRestar{
+    background-color: #b48215dc;
+    height: 35px;
+    font-size: 1.5rem;
+}
+.btnSumar{
+    height: 35px;
+    font-size: 1.5rem;
+    background-color: #b48215dc;
+}
+
 footer{
     background-color: $bodyHeaderFooter;
     display: flex;
@@ -234,8 +252,46 @@ footer{
         // margin-bottom: 1rem;
     } 
     }
-    h5{
+    h3{
         color: #ffffff;
     }
     
+}
+
+// Media Queries @ -----------------------------
+
+@media all and (max-width: 480px) {
+    .section1{
+        h1{
+            display: flex;
+            justify-content: center;
+            font-size: 3rem;
+        }
+        h2{
+            font-size: 2rem;
+            left: 10%;
+        }
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        .header_logoFooter{
+            width: 8rem;
+            height: 8rem;
+            margin: 9px;
+        }
+        h1{
+            font-size: 70px;
+            justify-self: auto;
+            margin: 30px 0;
+        }
+        h2{
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        h3{
+            margin-top: 20px;
+        }
+    }
 }
